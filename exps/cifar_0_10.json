@@ -1,0 +1,18 @@
+{
+    "prefix": "-",
+    "dataset": "cifar224",
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "ccacl",
+    "convnet_type": "clip",
+    "device": [ "0"],
+    "seed": [1997],
+    "tuned_epoch": 6,
+    "init_lr": 0.05,
+    "batch_size": 64,
+    "cca_batch_size": 64,
+    "weight_decay": 0.05,
+    "optimizer": "sgd",
+    "rff_d": 6144
+}
